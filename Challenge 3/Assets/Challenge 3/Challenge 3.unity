@@ -596,9 +596,9 @@ GameObject:
   - component: {fileID: 773726757}
   - component: {fileID: 773726762}
   - component: {fileID: 773726761}
+  - component: {fileID: 773726758}
   - component: {fileID: 773726760}
   - component: {fileID: 773726759}
-  - component: {fileID: 773726758}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -669,13 +669,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 773726756}
-        m_TargetAssemblyTypeName: 
+      - m_Target: {fileID: 773726760}
+        m_TargetAssemblyTypeName: Link, Assembly-CSharp
         m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
