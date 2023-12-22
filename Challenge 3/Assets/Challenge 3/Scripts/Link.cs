@@ -4,15 +4,8 @@ using UnityEngine.UI;
 
 public class Link : MonoBehaviour 
 {
-
-	public void OpenLinkJSPlugin()
-	{
-		#if !UNITY_EDITOR
-		openWindow(Field.text);
-		#endif
-	}
-
-	[DllImport("__Internal")]
-	private static extern void openWindow(string url);
-
+    public void OpenGithub()
+    {
+        Application.OpenURL("https://github.com/GeorgeJrC/Challenge-3-Edited");
+    }
 }

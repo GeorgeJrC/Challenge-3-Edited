@@ -671,7 +671,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 773726760}
         m_TargetAssemblyTypeName: Link, Assembly-CSharp
-        m_MethodName: 
+        m_MethodName: OpenGithub
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
